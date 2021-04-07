@@ -27,7 +27,7 @@ def Login():
         lastchar = len(password)-1
         password = password[0:lastchar]
         print(username,password)
-        #file.close()
+        
 
         if username1 == username and password1 == password:
             print("Hello",username)
